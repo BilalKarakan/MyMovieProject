@@ -1,0 +1,40 @@
+﻿.material {
+    color: rgb(102, 102, 102);
+}
+
+.nav-link-user {
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 4px;
+    float: right;
+    margin-right: 10px;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-item-list1 {
+    position: relative;
+    top: 3px;
+}
+
+.nav-item-list2 {
+    position: relative;
+    top: 8px;
+}
+
+.nav-link-user:hover {
+    text-decoration: none;
+    background-color: rgb(102,102,102);
+    color: white;
+}
+
+.nav-link {
+    float: left;
+    margin-left: 40px;
+}
+
+.nav-item {
+    list-style-type: none;
+}

@@ -1,0 +1,15 @@
+﻿.film{
+    width: 100%;
+    background-color: black;
+}
+.description {
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-size: 25px;
+    color: rgb(242, 242, 242);
+    padding:20px;
+    text-indent: 40px;
+    opacity: 0.8;
+}
+.images{
+    width:100%;
+}

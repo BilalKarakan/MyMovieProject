@@ -1,0 +1,12 @@
+﻿.film-title{
+    font-size: 25px;
+}
+
+.film-properties {
+    float: left;
+    margin-left: 20px;
+    width:50%;
+}
+.images{
+    float:left;
+}

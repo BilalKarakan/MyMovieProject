@@ -1,0 +1,19 @@
+﻿@model Movie
+<link href="~/css/stylemovies.css" rel="stylesheet" />
+<div class="film">
+    <img src="/img/@Model.imageUrl" alt="@Model.Title" class="images">
+    <div class="film-properties">
+        <p class="film-title">@Model.Title</p>
+        <p class="film-description">@Model.Description</p>
+        <p class="film-director">@Model.Director</p>
+        <p class="film-players">
+            <ul>
+                @foreach (var player in @Model.Players)
+                {
+                    <li>@player</li>
+                }
+            </ul>
+        </p>
+    </div>
+    
+</div>

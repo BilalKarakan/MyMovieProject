@@ -1,0 +1,17 @@
+﻿@model List<Movie>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+<style>
+    font-family: 'Playfair Display', serif;
+</style>
+<h1 style="color: rgb(102, 102, 102); font-size: 50px; position:relative; top:-12px;"><i>List of Films</i></h1>
+    <div id = filmler>
+
+    @foreach (var movie in Model)
+    {
+        @await Html.PartialAsync("_movie",movie)
+    }
+         
+    </div>
+    @section menu{
+        @await Html.PartialAsync("_menu")
+    }

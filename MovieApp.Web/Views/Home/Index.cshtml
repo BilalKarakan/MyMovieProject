@@ -1,0 +1,18 @@
+﻿@* @model MovieApp.Web.Models.Movie *@
+@model Movie
+@*@{
+    Layout = "_Layout2";
+}*@
+
+<link href="~/css/styleindex.css" rel="stylesheet" />
+@section header{
+    @await Html.PartialAsync("_header")
+}
+
+@section scripts{
+    <script src="/js/script.js"></script>
+}
+
+    <div id = filmler>
+        @await Html.PartialAsync("_indexDescription",Model)
+    </div>
